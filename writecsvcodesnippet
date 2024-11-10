@@ -1,0 +1,4 @@
+import csv
+with open('Sample_File.csv','a') as csvFile:
+    csvWriter = csv.writer(csvFile)
+    csvWriter.writerow(['Churchil',39,'Male'])
