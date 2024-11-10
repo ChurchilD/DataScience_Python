@@ -1,0 +1,8 @@
+import csv
+csvfile = open('Sample_File.csv')
+csvreader=csv.reader(csvfile)
+count = 0
+for line in csvreader:
+    if count != 0:
+        print('Row:' +str(line))
+    count +=1
